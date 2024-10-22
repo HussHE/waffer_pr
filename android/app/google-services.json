@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235495784735",
+    "project_id": "wafferauth",
+    "storage_bucket": "wafferauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235495784735:android:4417dc8723b1d24ddc302a",
+        "android_client_info": {
+          "package_name": "com.example.waffer_pr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5GzS8dnQy_MAqIzZnFgbSnHUYyu0qlaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
