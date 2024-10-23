@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:waffer_pr/Screen/customer_home_page.dart';
+import 'package:waffer_pr/Screen/login_signup/login.dart';
 import 'package:waffer_pr/Screen/onboard_screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 

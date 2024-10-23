@@ -291,7 +291,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           IconButton(
                             icon: Image.asset(
                                 'assets/images/icons/FaceBook.png'), // أيقونة فيسبوك
-                            onPressed: () {},
+                            onPressed: () {
+                              AuthMethods().signInWithFacebook();
+                            },
                             iconSize: 20,
                           ),
                         ],
