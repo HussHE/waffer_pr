@@ -17,8 +17,11 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   String _email = "",
       _password = "",
+      // ignore: unused_field
       _cnfPassword = "",
+      // ignore: unused_field
       _fullName = "",
+      // ignore: unused_field
       _phoneNumber = "";
 
   final _fullNameControl = TextEditingController();
@@ -36,6 +39,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         _cnfPassControl.text != "" &&
         _phoneNumControl.text != "") {
       try {
+        // ignore: unused_local_variable
         UserCredential userCredential = await FirebaseAuth.instance
             .createUserWithEmailAndPassword(email: _email, password: _password);
         // ignore: use_build_context_synchronously
